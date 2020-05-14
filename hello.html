@@ -2,14 +2,108 @@
 <html>
 	<head>
 		<title> My Webpage!</title>
+		<!-- importing CSS---->
+		<link rel ="stylesheet" href="style.css">
+		
+		<!-- importing CSS---->
+		<style>
+		h1 {
+			color: blue;
+			text-align: center;
+			
+			}
+		div{
+			background-color: teal;
+			width: 200px;
+			height: 400px;
+			margin: 300px;<!-- to control the outside of the element---->
+			padding:20px;<!-- to control the inside of the element---->
+			font-family: Arial, sans-serif;
+			font-size: 28px; 
+			font-weight: bold;
+			border: 3px dotted darkred;
+		}
+		table{
+			border: 3px solid darkblue;
+			border-collapse: collapse;
+			width: 50%;
+		}
+		th, td{
+			padding: 5px;
+			border: 2px solid black;
+			text-align: center;
+		}
+		th{
+			background-color: lightgray;
+		}
+		
+		
+		</style>
+
 	</head>
-	<body>
-		Hello, World!
-		Hello, again!
 
-		Hello third 
-		heloo hello hello
+		<body>
+		<div>
+			Hello-world!
+		</div>
+		 <!-- importing CSS---->
+		  <!--google html color picker -->
+		 <h1 style="color:#34eb89;text-align:center"> Welcome to My Web Page!</h1>
+		 <p>Hello, World! This is a paragraph of text</p>
+		 <p>This is another Paragraph!</p>
+		<!-- there is up to 6 sizes for font --> 
+			<h1> This is the Largest hedline</h1>
+			<h2> This is also hedline</h2>
+			<h3> This smaller hedline</h3>
+			<h4> This is even smaller hedline</h4>
+			An Unordered list:
+			<ul>
+				<li> one item</i>
+				<li> second item</i>
+				<li> third item</i>
+			</ul>
+			<!-- how to make ordered list --> 
+			Ordered list:
+			
+			<ol>
+				<li> one item</i>
+				<li> second item</i>
+				<li> third item</i>
+				<li> fourth item</i>
+			</ol>
+			<!-- this is how to adjust pic size --> 
+			<img src="cat.jpg" height="40%" width="50%" >
+			
+			<!-- this is how you make a table in html-->
+			<h1>Presidents </h1>
+			<table>
+			<tr> <!-- table rows-->
+			<th>First Name</th> <!-- table head-->
+			<th>Last Name</th>  <!-- table head-->
+			<th>Years in office</th>
+			</tr>
+			
+				<tr> <!-- td = table data-->
+					<td>Barack</td>
+					<td>Obama</td>
+					<td>2008 - 2016</td>
+				</tr>
+				
+				<tr>
+					<td>George</td>
+					<td>Bush</td>
+					<td>2000 - 2008</td>
+				</tr>
+			
+			</table>
+			 <!-- hot to input data in webpage placeholder is to tell the user what to 
+			 put in the filed name is where to store these information-->
+			<form>
+				<input type="text" placeholder="Full Name" name= "name">
+				<button> Submit! </button>
+			</form>
 
-	</body>
+
+		</body>
 
 </html>
